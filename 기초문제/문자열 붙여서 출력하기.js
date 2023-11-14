@@ -7,8 +7,10 @@ const rl = readline.createInterface({
 let input = [];
 
 rl.on('line', function (line) {
-  input = [line];
+  input = line.split(' ');
 }).on('close', function () {
-  str = input[0];
+  str1 = input[0];
+  str2 = input[1];
+  const str = str1 + str2
   console.log(str)
 });

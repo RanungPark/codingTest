@@ -10,5 +10,5 @@ rl.on('line', function (line) {
   input = [line];
 }).on('close', function () {
   str = input[0];
-  console.log(str)
+  for (let item of str) console.log(item)
 });

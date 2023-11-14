@@ -7,8 +7,13 @@ const rl = readline.createInterface({
 let input = [];
 
 rl.on('line', function (line) {
-  input = [line];
+  input = line.split(' ');
 }).on('close', function () {
-  str = input[0];
-  console.log(str)
+  n = Number(input[0]);
+  if (n % 2 === 0) {
+    console.log(`${n} is even`)
+  } else if (n % 2 === 1) {
+    console.log(`${n} is odd`)
+  }
+
 });

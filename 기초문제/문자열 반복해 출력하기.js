@@ -7,8 +7,9 @@ const rl = readline.createInterface({
 let input = [];
 
 rl.on('line', function (line) {
-  input = [line];
+  input = line.split(' ');
 }).on('close', function () {
   str = input[0];
-  console.log(str)
+  n = Number(input[1]);
+  console.log(str.repeat(n));
 });
