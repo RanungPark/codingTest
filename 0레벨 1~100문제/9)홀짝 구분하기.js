@@ -15,5 +15,4 @@ rl.on('line', function (line) {
   } else if (n % 2 === 1) {
     console.log(`${n} is odd`)
   }
-
 });

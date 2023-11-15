@@ -1,5 +1,5 @@
 function solution(my_string, overwrite_string, s) {
-  var answer = '';
+  let answer = '';
   for (i = 0; i < s; i++) {
     answer += my_string[i]
   }
