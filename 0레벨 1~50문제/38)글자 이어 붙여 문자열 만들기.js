@@ -1,9 +1,9 @@
 function solution(my_string, index_list) {
   var answer = [];
-  for(i of index_list) {
-      answer.push(my_string[i])
+  for (i of index_list) {
+    answer.push(my_string[i])
   }
-  
+
   return answer.join("")
 }
 
