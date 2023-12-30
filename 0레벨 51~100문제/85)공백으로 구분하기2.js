@@ -3,3 +3,7 @@ function solution(my_string) {
     if (v !== '') return v
   });
 }
+
+// function solution(my_string) {
+//   return my_string.split(" ").filter(v => v);
+// }

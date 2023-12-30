@@ -6,3 +6,7 @@ function solution(myString) {
     } else return v.toLowerCase()
   }).join('')
 }
+
+// function solution(myString) {
+//   return [...myString].map(v => ["a", "A"].includes(v) ? "A" : v.toLowerCase()).join("");
+// }
